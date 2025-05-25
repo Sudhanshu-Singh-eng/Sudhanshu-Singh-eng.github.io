@@ -1,0 +1,15 @@
+name: Email Check Action
+
+on:
+  workflow_dispatch: # Allows manual triggering of the workflow
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4 # Action to check out your repository code
+      - name: 24f2009046@ds.study.iitm.ac.in
+        run: echo "Hello, world! This step contains my email address."
+      - name: Another step (optional)
+        run: echo "This is another example step."
